@@ -1,0 +1,22 @@
+html {
+    background-color: coral;
+}
+
+div{
+    font-size: 50px ;
+    text-align: center;
+    margin-top: 100px;
+}
+#first{
+    background-color: blue;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#second{
+    background-color: yellow;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.start{
+    font-size: 20px;
+}
