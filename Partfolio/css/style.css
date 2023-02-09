@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    min-height: 1000px;
+    background: url("img/It.jpg") center/cover no-repeat;  
+}
+.row{
+    Color: White;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 20px;
+}
+#id1{ border: 1px #000 solid;
+background-color: blue;
+color: #000;
+width: 300px;
+cursor: pointer;
+padding: 10px;
+font-size: 1.5em;
+transition: color 1s, width 1s, background-color 1s;
+}
+
+#id1:hover {
+    color: #FFFFFF;
+    width: 350px;
+    background-color: #880045;
+}
+
+#id2{ border: 1px #000 solid;
+    background-color: red;
+    color: #000;
+    width: 300px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.5em;
+    transition: color 2s, width 2s, background-color 2s;
+    float: right;
+    }
+    
+#id2:hover {
+        color: #FFFFFF;
+        float: right;
+        width: 350px;
+        height: 100px;
+        background-color: orange;
+    }
+#mailme{
+    color:orangered;
+    
+}
+.head{
+    font-size: 30px;
+    color:cyan;
+}
