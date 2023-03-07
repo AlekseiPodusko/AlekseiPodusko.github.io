@@ -1,0 +1,159 @@
+.header a,a:hover{
+    color:Black;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #B4E1F0;
+}
+
+.header h1{
+    letter-spacing: 15px;
+    font-size: 300%;
+    font-weight: 700;
+}
+.header p{
+    color: gray!important;
+    font-size: 90%;
+    letter-spacing: 3px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color:#fff;
+    background-color: cornflowerblue;
+}
+.nav-pills>li>a{
+    color:black;
+}
+.nav-pills>li>a:hover{
+    background-color: cornflowerblue;
+    color:#fff;
+}
+.navbar-inverse{
+    padding: 1%;
+    border-radius:0;
+}
+@media(max-width:767px){
+    .nav-pills>li{
+        float:none;
+    }
+    .nav-pills{
+        text-align: center;
+    }
+    .header h1{
+        font-size: 280%;
+        letter-spacing: 5px;
+    }
+    .header{
+        text-align: center;
+    }
+}
+.clear{
+    clear:both;
+    height: 63px;
+}
+.wrapper{
+    min-height: 100%;
+}
+html,body {
+    height: 100%;
+}
+.films_block{
+    text-align: center;
+}
+.films_block img{
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+    width:100%;
+}
+.film_label{
+    padding: 2%;
+    margin-bottom: 4%;
+}
+.margin-8{
+    margin-top: 8%;
+}
+.panel{
+    border:none;
+}
+.panel-body{
+    background-color: #f9f9f9;
+}
+.pabel-info>.panel-heading{
+    background-color: cornflowerblue;
+    color:white;
+    border-color: transparent;
+}
+.sidebar-header{
+    font-size:120%;
+    letter-spacing: 2px;
+}
+.formal-control{
+    border-radius: 0px;
+}
+.input-lg{
+    font-size:14px;
+}
+.list-group-item-warning{
+    color:#8a6d3d;
+    background-color: #f9f9f9;
+}
+.badge{
+    background-color: cornflowerblue;
+}
+.info-block{
+    font-size: 120%;
+}
+.info-block .badge{
+    font-size: 80%
+}
+.info-block span{
+    margin-right: 3%;
+}
+textarea.formal-control{
+    height: 200px;
+}
+.table tbody>tr>td.vert-align{
+    vertical-align: middle;
+}
+footer{
+    color:#666;
+    background: #B4E1F0;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid black;
+}
+footer a{
+    color:#999;
+}
+footer a:hover{
+    color:#efefef
+}
+img {
+    transition: all 3s;
+}
+
+img:hover {
+    transform: scale(1.2); /* уменьшаем элемент в два раза */
+}
+.big-img{
+    width: 10px;
+    height: 5px;
+}
+.center-img{
+    text-align: center;
+}
+.site_content{
+    width: 880px;
+    overflow: hidden;
+    margin: 20px auto 0 auto ;
+    background-color: #4283fa;
+}
+.btn{
+    border: cornflowerblue;
+    background-color: cornflowerblue;
+}
+.overlogo img{
+    width: 180px;
+    height: 120px;
+    float: right;
+    position : relative ; top: -150px; left:-150px; }
