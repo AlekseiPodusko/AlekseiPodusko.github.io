@@ -1,0 +1,29 @@
+* {
+    margin: auto;
+    height: auto;
+    padding: auto;
+    background-color:purple;
+}
+.navbar {
+    font-size: 120px;
+    border-radius: 20px;
+}
+
+.navbar .btn{
+    border-radius: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+.title{
+    font-size: 75px;
+    color:white;
+
+}
+.img{
+    border-radius: 5px;
+    border: solid 5px white; 
+    background-color: white;
+    
+}
+
